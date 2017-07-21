@@ -54,12 +54,15 @@ function showSlides(n) {
 
 
 //WORKS/////======\\\\\\WORKS/
+var nBtn = document.getElementsByClassName('nBtn');
 var workIndex = 2;
 swiWork(workIndex);
 function swiWork(n){
   var works = document.getElementsByClassName('works');
   for(var i = 0; i < works.length; i++){
     works[i].style.display = "none";
+    nBtn[i].style.backgroundColor = "#777";
   }
   works[n -1].style.display = "block";
+  nBtn[n -1].style.backgroundColor = "#333";
 }
