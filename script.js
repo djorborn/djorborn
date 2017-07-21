@@ -55,7 +55,7 @@ function showSlides(n) {
 
 //WORKS/////======\\\\\\WORKS/
 var nBtn = document.getElementsByClassName('nBtn');
-var workIndex = 2;
+var workIndex = 3;
 swiWork(workIndex);
 function swiWork(n){
   var works = document.getElementsByClassName('works');
